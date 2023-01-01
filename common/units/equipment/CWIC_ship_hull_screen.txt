@@ -262,7 +262,7 @@ equipments = {
 
 		reliability = 0.90
 		surface_visibility = 6
-		naval_speed = 30
+		naval_speed = 35
 		naval_range = 1600
 		max_strength = 260
 		build_cost_ic = 350
