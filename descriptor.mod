@@ -7,4 +7,4 @@ tags={
 	"Military"
 }
 name="CWIC Corvette"
-supported_version="1.12.7"
+supported_version="1.12.8"
