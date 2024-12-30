@@ -25,7 +25,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 0
+				num_of_naval_factories > 25
 				date > 1935.1.1
 			}
 		}
@@ -62,7 +62,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 10
+				num_of_naval_factories > 25
 				date > 1944.1.1
 			}
 		}
@@ -103,7 +103,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 20
+				num_of_naval_factories > 25
 				date > 1947.1.1
 			}
 		}
@@ -140,7 +140,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 20
+				num_of_naval_factories > 25
 				date > 1955.1.1
 			}
 		}
@@ -177,7 +177,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 20
+				num_of_naval_factories > 25
 				date > 1965.1.1
 			}
 		}
@@ -193,6 +193,10 @@ technologies = {
 		}
 		enable_equipment_modules = { 
 			sub_engine_alpha_4
+		}
+		path = {
+			leads_to_tech = sub_hull_large_single_5
+			research_cost_coeff = 1
 		}
 		research_cost = 2
 		start_year = 1985
@@ -210,8 +214,40 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 20
+				num_of_naval_factories > 25
 				date > 1975.1.1
+			}
+		}
+		ai_research_weights = {
+			naval_doctrine = -0.1
+			naval_equipment = -0.1
+		}
+	}
+	sub_hull_large_single_5 = {
+		enable_equipments = { 
+			sub_hull_large_single_5
+		}
+		enable_equipment_modules = { 
+			sub_engine_alpha_4
+		}
+		research_cost = 2
+		start_year = 2000
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 26 }
+		}
+		categories = {
+			naval_equipment
+			ss_tech
+			ss_tech_hull
+			sub_hull_large_single
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 10
+				num_of_naval_factories > 25
+				date > 1990.1.1
 			}
 		}
 		ai_research_weights = {
@@ -248,7 +284,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 10
+				num_of_naval_factories > 15
 				date > 1950.1.1
 			}
 		}
@@ -285,7 +321,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 10
+				num_of_naval_factories > 15
 				date > 1965.1.1
 			}
 		}
@@ -322,7 +358,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 10
+				num_of_naval_factories > 15
 				date > 1980.1.1
 			}
 		}
@@ -359,7 +395,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 10
+				num_of_naval_factories > 15
 				date > 1995.1.1
 			}
 		}
@@ -392,7 +428,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 10
+				num_of_naval_factories > 15
 				date > 2005.1.1
 			}
 		}
@@ -422,7 +458,7 @@ technologies = {
 		start_year = 1960
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 3 y = 10 }
+			position = { x = 4 y = 10 }
 		}
 		categories = {
 			naval_equipment
@@ -434,7 +470,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 40
+				num_of_naval_factories > 45
 				date > 1960.1.1
 			}
 		}
@@ -464,7 +500,7 @@ technologies = {
 		start_year = 1970
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 3 y = 14 }
+			position = { x = 4 y = 14 }
 		}
 		categories = {
 			naval_equipment
@@ -476,7 +512,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 40
+				num_of_naval_factories > 45
 				date > 1970.1.1
 			}
 		}
@@ -502,7 +538,7 @@ technologies = {
 		start_year = 1980
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 3 y = 18 }
+			position = { x = 4 y = 18 }
 		}
 		categories = {
 			naval_equipment
@@ -514,7 +550,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 40
+				num_of_naval_factories > 50
 				date > 1980.1.1
 			}
 		}
@@ -541,10 +577,10 @@ technologies = {
 		#	research_cost_coeff = 1
 		#}
 		research_cost = 3
-		start_year = 1990
+		start_year = 2005
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 3 y = 22 }
+			position = { x = 4 y = 28 }
 		}
 		categories = {
 			naval_equipment
@@ -556,7 +592,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 40
+				num_of_naval_factories > 50
 				date > 1990.1.1
 			}
 		}
@@ -617,7 +653,6 @@ technologies = {
 			factor = 100
 		}
 	}
-
 	screen_hull_light_0 = {
 		enable_equipments = { 
 			screen_hull_light_0
@@ -629,7 +664,7 @@ technologies = {
 			leads_to_tech = screen_hull_light_1
 			research_cost_coeff = 1
 		}
-		research_cost = 1
+		research_cost = 0.70
 		start_year = 1940
 		folder = {
 			name = mtgnavalfolder
@@ -666,7 +701,7 @@ technologies = {
 			leads_to_tech = screen_hull_light_2
 			research_cost_coeff = 1
 		}
-		research_cost = 1
+		research_cost = 0.70
 		start_year = 1955
 		folder = {
 			name = mtgnavalfolder
@@ -703,7 +738,7 @@ technologies = {
 			leads_to_tech = screen_hull_light_3
 			research_cost_coeff = 1
 		}
-		research_cost = 1
+		research_cost = 0.70
 		start_year = 1965
 		folder = {
 			name = mtgnavalfolder
@@ -740,7 +775,7 @@ technologies = {
 			leads_to_tech = screen_hull_light_4
 			research_cost_coeff = 1
 		}
-		research_cost = 1
+		research_cost = 0.70
 		start_year = 1980
 		folder = {
 			name = mtgnavalfolder
@@ -773,7 +808,7 @@ technologies = {
 		enable_equipment_modules = { 
 			screen_engine_light_4
 		}
-		research_cost = 1
+		research_cost = 0.70
 		start_year = 1995
 		folder = {
 			name = mtgnavalfolder
@@ -798,7 +833,6 @@ technologies = {
 			naval_equipment = -0.1
 		}
 	}
-
 
 	screen_hull_medium_0 = {
 		enable_equipments = { 
@@ -827,7 +861,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 3
+				num_of_naval_factories > 6
 				date > 1940.1.1
 			}
 		}
@@ -864,7 +898,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 3
+				num_of_naval_factories > 6
 				date > 1955.1.1
 			}
 		}
@@ -901,7 +935,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 3
+				num_of_naval_factories > 6
 				date > 1970.1.1
 			}
 		}
@@ -938,7 +972,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 3
+				num_of_naval_factories > 6
 				date > 1985.1.1
 			}
 		}
@@ -971,7 +1005,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 3
+				num_of_naval_factories > 6
 				date > 2000.1.1
 			}
 		}
@@ -992,10 +1026,6 @@ technologies = {
 			leads_to_tech = screen_hull_heavy_1
 			research_cost_coeff = 1
 		}
-		#path = {
-		#	leads_to_tech = screen_aviation_1
-		#	research_cost_coeff = 1
-		#}
 		research_cost = 1.5
 		start_year = 1945
 		folder = {
@@ -1193,7 +1223,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 20
+				num_of_naval_factories > 55
 				date > 1940.1.1
 			}
 		}
@@ -1214,10 +1244,6 @@ technologies = {
 			leads_to_tech = battle_hull_light_2
 			research_cost_coeff = 1
 		}
-		#path = {
-		#	leads_to_tech = screen_aviation_1
-		#	research_cost_coeff = 1
-		#}
 		research_cost = 2
 		start_year = 1955
 		folder = {
@@ -1234,7 +1260,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 20
+				num_of_naval_factories > 55
 				date > 1955.1.1
 			}
 		}
@@ -1255,10 +1281,6 @@ technologies = {
 			leads_to_tech = battle_hull_light_3
 			research_cost_coeff = 1
 		}
-		#path = {
-		#	leads_to_tech = screen_aviation_2
-		#	research_cost_coeff = 1
-		#}
 		research_cost = 2
 		start_year = 1970
 		folder = {
@@ -1275,7 +1297,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 20
+				num_of_naval_factories > 55
 				date > 1970.1.1
 			}
 		}
@@ -1296,10 +1318,6 @@ technologies = {
 			leads_to_tech = battle_hull_light_4
 			research_cost_coeff = 1
 		}
-		#path = {
-		#	leads_to_tech = screen_aviation_3
-		#	research_cost_coeff = 1
-		#}
 		research_cost = 2
 		start_year = 1985
 		folder = {
@@ -1316,7 +1334,7 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 20
+				num_of_naval_factories > 55
 				date > 1985.1.1
 			}
 		}
@@ -1333,10 +1351,6 @@ technologies = {
 		enable_equipment_modules = { 
 			screen_engine_4
 		}
-		#path = {
-		#	leads_to_tech = screen_aviation_4
-		#	research_cost_coeff = 1
-		#}
 		research_cost = 2
 		start_year = 2000
 		folder = {
@@ -1353,7 +1367,227 @@ technologies = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 20
+				num_of_naval_factories > 55
+				date > 2000.1.1
+			}
+		}
+		ai_research_weights = {
+			naval_doctrine = -0.1
+			naval_equipment = -0.1
+		}
+	}
+	
+	ww_capitals = {
+		enable_equipments = { 
+			battle_hull_heavy_ww
+		}
+		enable_equipments = { 
+			battle_hull_medium_ww
+		}
+		enable_equipment_modules = { 
+			capital_engine_ww
+		}
+		path = {
+			leads_to_tech = battle_hull_medium_0
+			research_cost_coeff = 1
+		}
+		research_cost = 4
+		start_year = 1935
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 0 }
+		}
+		categories = {
+			naval_equipment
+			capital_tech
+			capital_tech_hull
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 10
+				num_of_naval_factories > 50
+				date > 1935.1.1
+			}
+		}
+		ai_research_weights = {
+			naval_doctrine = -0.1
+			naval_equipment = -0.1
+		}
+	}
+
+	battle_hull_medium_0 = {
+		enable_equipments = { 
+			battle_hull_medium_0
+		}
+		enable_equipment_modules = { 
+			capital_engine_0
+		}
+		path = {
+			leads_to_tech = battle_hull_medium_1
+			research_cost_coeff = 1
+		}
+		research_cost = 3
+		start_year = 1940
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 2 }
+		}
+		categories = {
+			naval_equipment
+			capital_tech
+			capital_tech_hull
+			battle_hull_medium
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 10
+				num_of_naval_factories > 100
+				date > 1940.1.1
+			}
+		}
+		ai_research_weights = {
+			naval_doctrine = -0.1
+			naval_equipment = -0.1
+		}
+	}
+
+	battle_hull_medium_1 = {
+		enable_equipments = { 
+			battle_hull_medium_1
+		}
+		enable_equipment_modules = { 
+			capital_engine_1
+		}
+		path = {
+			leads_to_tech = battle_hull_medium_2
+			research_cost_coeff = 1
+		}
+		research_cost = 3
+		start_year = 1955
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 8 }
+		}
+		categories = {
+			naval_equipment
+			capital_tech
+			capital_tech_hull
+			battle_hull_medium
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 10
+				num_of_naval_factories > 100
+				date > 1955.1.1
+			}
+		}
+		ai_research_weights = {
+			naval_doctrine = -0.1
+			naval_equipment = -0.1
+		}
+	}
+
+	battle_hull_medium_2 = {
+		enable_equipments = { 
+			battle_hull_medium_2
+		}
+		enable_equipment_modules = { 
+			capital_engine_2
+		}
+		path = {
+			leads_to_tech = battle_hull_medium_3
+			research_cost_coeff = 1
+		}
+		research_cost = 3
+		start_year = 1970
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 14 }
+		}
+		categories = {
+			naval_equipment
+			capital_tech
+			capital_tech_hull
+			battle_hull_medium
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 10
+				num_of_naval_factories > 100
+				date > 1970.1.1
+			}
+		}
+		ai_research_weights = {
+			naval_doctrine = -0.1
+			naval_equipment = -0.1
+		}
+	}
+
+	battle_hull_medium_3 = {
+		enable_equipments = { 
+			battle_hull_medium_3
+		}
+		enable_equipment_modules = { 
+			capital_engine_3
+		}
+		path = {
+			leads_to_tech = battle_hull_medium_4
+			research_cost_coeff = 1
+		}
+		research_cost = 3
+		start_year = 1985
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 20 }
+		}
+		categories = {
+			naval_equipment
+			capital_tech
+			capital_tech_hull
+			battle_hull_medium
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 10
+				num_of_naval_factories > 100
+				date > 1985.1.1
+			}
+		}
+		ai_research_weights = {
+			naval_doctrine = -0.1
+			naval_equipment = -0.1
+		}
+	}
+
+	battle_hull_medium_4 = {
+		enable_equipments = { 
+			battle_hull_medium_4
+		}
+		enable_equipment_modules = { 
+			capital_engine_4
+		}
+		research_cost = 3
+		start_year = 2000
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 26 }
+		}
+		categories = {
+			naval_equipment
+			capital_tech
+			capital_tech_hull
+			battle_hull_medium
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 10
+				num_of_naval_factories > 100
 				date > 2000.1.1
 			}
 		}
@@ -1363,73 +1597,41 @@ technologies = {
 		}
 	}
 
-
-	
-	#sub_hull_large_double_4 = {
-	#	enable_equipments = { 
-	#		sub_hull_large_double_4
-	#	}
-	#	enable_equipment_modules = { 
-	#		sub_engine_mega_4
-	#	}
-	#	path = {
-	#		leads_to_tech = slbm_tube_4
-	#		research_cost_coeff = 1
-	#	}
-	#	research_cost = 3
-	#	start_year = 2000
-	#	folder = {
-	#		name = mtgnavalfolder
-	#		position = { x = 4 y = 26 }
-	#	}
-	#	categories = {
-	#		naval_equipment
-	#		ss_tech
-	#		ss_tech_hull
-	#		sub_hull_large_double
-	#	}
-	#	ai_will_do = {
-	#		factor = 0
-	#		modifier = {
-	#			add = 10
-	#			num_of_naval_factories > 40
-	#			date > 2000.1.1
-	#		}
-	#	}
-	#	ai_research_weights = {
-	#		naval_doctrine = -0.1
-	#		naval_equipment = -0.1
-	#	}
-	#}
-
-	conventional_sub_engines_0 = {
+	ww_carriers = {
+		enable_equipments = { 
+			carrier_hull_ww
+		}
 		enable_equipment_modules = { 
-			conventional_sub_engines_0
+			capital_engine_ww
+		}
+		enable_equipment_modules = { 
+			carrier_deck
 		}
 		path = {
-			leads_to_tech = sub_batteries_0
+			leads_to_tech = carrier_hull_0
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = conventional_sub_engines_1
+			leads_to_tech = carrier_hull_light_0
 			research_cost_coeff = 1
 		}
 		research_cost = 4
-		start_year = 1940
+		start_year = 1935
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 0 y = 0 }
 		}
 		categories = {
 			naval_equipment
-			naval_modules_general
-			naval_weapon
+			carrier_tech
+			carrier_tech_hull
+			mediumcarrier_tech
 		}
 		ai_will_do = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 0
+				num_of_naval_factories > 30
 				date > 1935.1.1
 			}
 		}
@@ -1439,19 +1641,59 @@ technologies = {
 		}
 	}
 
-	conventional_sub_engines_1 = {
+	carrier_hull_0 = {
+		enable_equipments = { 
+			carrier_hull_0
+		}
 		enable_equipment_modules = { 
-			conventional_sub_engines_1
+			capital_engine_0
 		}
 		path = {
-			leads_to_tech = conventional_sub_engines_2
+			leads_to_tech = carrier_hull_1
+			research_cost_coeff = 1
+		}
+		research_cost = 3
+		start_year = 1940
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 2 }
+		}
+		categories = {
+			naval_equipment
+			carrier_tech
+			carrier_tech_hull
+			mediumcarrier_tech
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 10
+				num_of_naval_factories > 35
+				date > 1940.1.1
+			}
+		}
+		ai_research_weights = {
+			naval_doctrine = -0.1
+			naval_equipment = -0.1
+		}
+	}
+
+	carrier_hull_1 = {
+		enable_equipments = { 
+			carrier_hull_1
+		}
+		enable_equipment_modules = { 
+			capital_engine_1
+		}
+		path = {
+			leads_to_tech = carrier_hull_2
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = nuclear_sub_engines_0
+			leads_to_tech = carrier_hull_super_1
 			research_cost_coeff = 1
 		}
-		research_cost = 4
+		research_cost = 3
 		start_year = 1955
 		folder = {
 			name = mtgnavalfolder
@@ -1459,15 +1701,16 @@ technologies = {
 		}
 		categories = {
 			naval_equipment
-			naval_modules_general
-			naval_weapon
+			carrier_tech
+			carrier_tech_hull
+			mediumcarrier_tech
 		}
 		ai_will_do = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 0
-				date > 1935.1.1
+				num_of_naval_factories > 35
+				date > 1955.1.1
 			}
 		}
 		ai_research_weights = {
@@ -1476,15 +1719,18 @@ technologies = {
 		}
 	}
 
-	conventional_sub_engines_2 = {
-		path = {
-			leads_to_tech = conventional_sub_engines_3
-			research_cost_coeff = 1
+	carrier_hull_2 = {
+		enable_equipments = { 
+			carrier_hull_2
 		}
 		enable_equipment_modules = { 
-			conventional_sub_engines_2
+			capital_engine_2
 		}
-		research_cost = 4
+		path = {
+			leads_to_tech = carrier_hull_3
+			research_cost_coeff = 1
+		}
+		research_cost = 3
 		start_year = 1970
 		folder = {
 			name = mtgnavalfolder
@@ -1492,15 +1738,16 @@ technologies = {
 		}
 		categories = {
 			naval_equipment
-			naval_modules_general
-			naval_weapon
+			carrier_tech
+			carrier_tech_hull
+			mediumcarrier_tech
 		}
 		ai_will_do = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 0
-				date > 1935.1.1
+				num_of_naval_factories > 35
+				date > 1970.1.1
 			}
 		}
 		ai_research_weights = {
@@ -1509,15 +1756,18 @@ technologies = {
 		}
 	}
 
-	conventional_sub_engines_3 = {
-		path = {
-			leads_to_tech = conventional_sub_engines_4
-			research_cost_coeff = 1
+	carrier_hull_3 = {
+		enable_equipments = { 
+			carrier_hull_3
 		}
 		enable_equipment_modules = { 
-			conventional_sub_engines_3
+			capital_engine_3
 		}
-		research_cost = 4
+		path = {
+			leads_to_tech = carrier_hull_4
+			research_cost_coeff = 1
+		}
+		research_cost = 3
 		start_year = 1985
 		folder = {
 			name = mtgnavalfolder
@@ -1525,15 +1775,16 @@ technologies = {
 		}
 		categories = {
 			naval_equipment
-			naval_modules_general
-			naval_weapon
+			carrier_tech
+			carrier_tech_hull
+			mediumcarrier_tech
 		}
 		ai_will_do = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 0
-				date > 1935.1.1
+				num_of_naval_factories > 35
+				date > 1985.1.1
 			}
 		}
 		ai_research_weights = {
@@ -1542,11 +1793,14 @@ technologies = {
 		}
 	}
 
-	conventional_sub_engines_4 = {
-		enable_equipment_modules = { 
-			conventional_sub_engines_4
+	carrier_hull_4 = {
+		enable_equipments = { 
+			carrier_hull_4
 		}
-		research_cost = 4
+		enable_equipment_modules = { 
+			capital_engine_4
+		}
+		research_cost = 3
 		start_year = 2000
 		folder = {
 			name = mtgnavalfolder
@@ -1554,15 +1808,16 @@ technologies = {
 		}
 		categories = {
 			naval_equipment
-			naval_modules_general
-			naval_weapon
+			carrier_tech
+			carrier_tech_hull
+			mediumcarrier_tech
 		}
 		ai_will_do = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 0
-				date > 1935.1.1
+				num_of_naval_factories > 35
+				date > 2000.1.1
 			}
 		}
 		ai_research_weights = {
@@ -1571,31 +1826,216 @@ technologies = {
 		}
 	}
 
-	nuclear_sub_engines_0 = {
-		path = {
-			leads_to_tech = nuclear_sub_engines_1
-			research_cost_coeff = 1
+	carrier_hull_light_0 = {
+		enable_equipments = { 
+			carrier_hull_light_0
 		}
 		enable_equipment_modules = { 
-			nuclear_sub_engines_0
+			capital_engine_0
+		}
+		path = {
+			leads_to_tech = carrier_hull_light_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1945
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -4 y = 2 }
+		}
+		categories = {
+			naval_equipment
+			carrier_tech
+			carrier_tech_hull
+			helicarrier_tech
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 10
+				num_of_naval_factories > 20
+				date > 1950.1.1
+			}
+		}
+		ai_research_weights = {
+			naval_doctrine = -0.1
+			naval_equipment = -0.1
+		}
+	}
+
+	carrier_hull_light_1 = {
+		enable_equipments = { 
+			carrier_hull_light_1
+		}
+		enable_equipment_modules = { 
+			capital_engine_1
+		}
+		path = {
+			leads_to_tech = carrier_hull_light_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1960
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -4 y = 10 }
+		}
+		categories = {
+			naval_equipment
+			carrier_tech
+			carrier_tech_hull
+			helicarrier_tech
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 10
+				num_of_naval_factories > 20
+				date > 1960.1.1
+			}
+		}
+		ai_research_weights = {
+			naval_doctrine = -0.1
+			naval_equipment = -0.1
+		}
+	}
+
+	carrier_hull_light_2 = {
+		enable_equipments = { 
+			carrier_hull_light_2
+		}
+		enable_equipment_modules = { 
+			capital_engine_2
+		}
+		path = {
+			leads_to_tech = carrier_hull_light_3
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1975
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -4 y = 16 }
+		}
+		categories = {
+			naval_equipment
+			carrier_tech
+			carrier_tech_hull
+			helicarrier_tech
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 10
+				num_of_naval_factories > 20
+				date > 1975.1.1
+			}
+		}
+		ai_research_weights = {
+			naval_doctrine = -0.1
+			naval_equipment = -0.1
+		}
+	}
+
+	carrier_hull_light_3 = {
+		enable_equipments = { 
+			carrier_hull_light_3
+		}
+		enable_equipment_modules = { 
+			capital_engine_3
+		}
+		path = {
+			leads_to_tech = carrier_hull_light_4
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1990
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -4 y = 22 }
+		}
+		categories = {
+			naval_equipment
+			carrier_tech
+			carrier_tech_hull
+			helicarrier_tech
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 10
+				num_of_naval_factories > 20
+				date > 1990.1.1
+			}
+		}
+		ai_research_weights = {
+			naval_doctrine = -0.1
+			naval_equipment = -0.1
+		}
+	}
+
+	carrier_hull_light_4 = {
+		enable_equipments = { 
+			carrier_hull_light_4
+		}
+		enable_equipment_modules = { 
+			capital_engine_4
+		}
+		research_cost = 1
+		start_year = 2005
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -4 y = 28 }
+		}
+		categories = {
+			naval_equipment
+			carrier_tech
+			carrier_tech_hull
+			helicarrier_tech
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 10
+				num_of_naval_factories > 20
+				date > 2005.1.1
+			}
+		}
+		ai_research_weights = {
+			naval_doctrine = -0.1
+			naval_equipment = -0.1
+		}
+	}
+
+	carrier_hull_super_1 = {
+		enable_equipments = { 
+			carrier_hull_super_1
+		}
+		enable_equipment_modules = { 
+			superheavy_engine_0
+		}
+		path = {
+			leads_to_tech = carrier_hull_super_2
+			research_cost_coeff = 1
 		}
 		research_cost = 4
 		start_year = 1960
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 2 y = 8 }
+			position = { x = 4 y = 10 }
 		}
 		categories = {
 			naval_equipment
-			naval_modules_general
-			naval_weapon
+			carrier_tech
+			carrier_tech_hull
+			supercarrier_tech
 		}
 		ai_will_do = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 0
-				date > 1935.1.1
+				num_of_naval_factories > 60
+				date > 1960.1.1
 			}
 		}
 		ai_research_weights = {
@@ -1604,31 +2044,35 @@ technologies = {
 		}
 	}
 
-	nuclear_sub_engines_1 = {
+	carrier_hull_super_2 = {
+		enable_equipments = { 
+			carrier_hull_super_2
+		}
+		enable_equipment_modules = { 
+			superheavy_engine_1
+		}
 		path = {
-			leads_to_tech = nuclear_sub_engines_2
+			leads_to_tech = carrier_hull_super_3
 			research_cost_coeff = 1
 		}
-		enable_equipment_modules = { 
-			sub_batteries_0
-		}
 		research_cost = 4
-		start_year = 1960
+		start_year = 1975
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 2 y = 16 }
+			position = { x = 4 y = 16 }
 		}
 		categories = {
 			naval_equipment
-			naval_modules_general
-			naval_weapon
+			carrier_tech
+			carrier_tech_hull
+			supercarrier_tech
 		}
 		ai_will_do = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 0
-				date > 1935.1.1
+				num_of_naval_factories > 60
+				date > 1975.1.1
 			}
 		}
 		ai_research_weights = {
@@ -1637,31 +2081,35 @@ technologies = {
 		}
 	}
 
-	nuclear_sub_engines_2 = {
+	carrier_hull_super_3 = {
+		enable_equipments = { 
+			carrier_hull_super_3
+		}
+		enable_equipment_modules = { 
+			superheavy_engine_2
+		}
 		path = {
-			leads_to_tech = sub_batteries_1
+			leads_to_tech = carrier_hull_super_4
 			research_cost_coeff = 1
 		}
-		enable_equipment_modules = { 
-			sub_batteries_0
-		}
 		research_cost = 4
-		start_year = 1960
+		start_year = 1990
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 2 y = 26 }
+			position = { x = 4 y = 22 }
 		}
 		categories = {
 			naval_equipment
-			naval_modules_general
-			naval_weapon
+			carrier_tech
+			carrier_tech_hull
+			supercarrier_tech
 		}
 		ai_will_do = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 0
-				date > 1935.1.1
+				num_of_naval_factories > 60
+				date > 1990.1.1
 			}
 		}
 		ai_research_weights = {
@@ -1670,31 +2118,31 @@ technologies = {
 		}
 	}
 
-	sub_batteries_0 = {
-		path = {
-			leads_to_tech = sub_batteries_1
-			research_cost_coeff = 1
+	carrier_hull_super_4 = {
+		enable_equipments = { 
+			carrier_hull_super_4
 		}
 		enable_equipment_modules = { 
-			sub_batteries_0
+			superheavy_engine_3
 		}
 		research_cost = 4
-		start_year = 1960
+		start_year = 2005
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 10 }
+			position = { x = 4 y = 28 }
 		}
 		categories = {
 			naval_equipment
-			naval_modules_general
-			naval_weapon
+			carrier_tech
+			carrier_tech_hull
+			supercarrier_tech
 		}
 		ai_will_do = {
 			factor = 0
 			modifier = {
 				add = 10
-				num_of_naval_factories > 0
-				date > 1935.1.1
+				num_of_naval_factories > 60
+				date > 2005.1.1
 			}
 		}
 		ai_research_weights = {
@@ -1703,65 +2151,4 @@ technologies = {
 		}
 	}
 
-	sub_batteries_1 = {
-		path = {
-			leads_to_tech = sub_batteries_2
-			research_cost_coeff = 1
-		}
-		enable_equipment_modules = { 
-			sub_batteries_1
-		}
-		research_cost = 4
-		start_year = 1980
-		folder = {
-			name = mtgnavalfolder
-			position = { x = -2 y = 18 }
-		}
-		categories = {
-			naval_equipment
-			naval_modules_general
-			naval_weapon
-		}
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				add = 10
-				num_of_naval_factories > 0
-				date > 1935.1.1
-			}
-		}
-		ai_research_weights = {
-			naval_doctrine = -0.1
-			naval_equipment = -0.1
-		}
-	}
-
-	sub_batteries_2 = {
-		enable_equipment_modules = { 
-			sub_batteries_2
-		}
-		research_cost = 4
-		start_year = 2000
-		folder = {
-			name = mtgnavalfolder
-			position = { x = -2 y = 26 }
-		}
-		categories = {
-			naval_equipment
-			naval_modules_general
-			naval_weapon
-		}
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				add = 10
-				num_of_naval_factories > 0
-				date > 1935.1.1
-			}
-		}
-		ai_research_weights = {
-			naval_doctrine = -0.1
-			naval_equipment = -0.1
-		}
-	}
 }
