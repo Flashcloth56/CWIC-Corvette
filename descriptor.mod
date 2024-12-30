@@ -1,4 +1,4 @@
-version="1.12.9"
+version="1.15.3"
 dependencies = {
 	"Cold War Iron Curtain Dev Build"
 	"Cold War Iron Curtain: A World Divided"
@@ -6,5 +6,6 @@ dependencies = {
 tags={
 	"Military"
 }
-name="CWIC Corvette"
-supported_version="1.12.9"
+picture="thumbnail.png"
+name="Corvette CWIC"
+supported_version="1.15.3"
