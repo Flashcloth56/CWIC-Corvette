@@ -1,5 +1,3 @@
-# Shoutout to SimpleFlips for all they have contributed to this mod and HOI4 modding! #
-
 corvette = {
 	category = naval
 	
@@ -46,7 +44,6 @@ corvette = {
 		}
 
 		allowed_modules = {
-					ship_SAM_long_range
 					VLS_module
 					ship_armament_asm
 					ship_SAM_mid_range
@@ -94,7 +91,6 @@ corvette = {
 		}
 
 		allowed_modules = {
-					ship_SAM_long_range
 					VLS_module
 					ship_armament_asm
 					ship_SAM_mid_range
@@ -141,7 +137,6 @@ corvette = {
 		}
 
 		allowed_modules = {
-					ship_SAM_long_range
 					VLS_module
 					ship_armament_asm
 					ship_SAM_mid_range
@@ -189,7 +184,6 @@ corvette = {
 		}
 
 		allowed_modules = {
-					ship_SAM_long_range
 					VLS_module
 					ship_armament_asm
 					ship_SAM_mid_range
@@ -233,7 +227,6 @@ corvette = {
 		}
 
 		allowed_modules = {
-					ship_SAM_long_range
 					VLS_module
 					ship_armament_asm
 					ship_SAM_mid_range
@@ -272,7 +265,6 @@ corvette = {
 		}
 
 		allowed_modules = {
-					ship_SAM_long_range
 					VLS_module
 					ship_armament_asm
 					ship_SAM_mid_range
