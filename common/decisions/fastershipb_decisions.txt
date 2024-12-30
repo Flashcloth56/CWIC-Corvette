@@ -1,0 +1,325 @@
+fastershipb = {
+fastershipb1 = {
+        icon = generic_propaganda
+
+        ai_will_do = {
+            factor = 0
+        }
+
+        visible = {
+            	always = yes
+        }
+
+	allowed = { 
+		NOT = {
+			has_country_flag = fastershipb_2
+			has_country_flag = fastershipb_3
+			has_country_flag = fastershipb_4
+			has_country_flag = fastershipb_5
+			has_country_flag = fastershipb_6
+			has_country_flag = fastershipb_7
+		}
+	}
+
+        available = {
+			NOT = {
+				has_country_flag = fastershipb_2
+				has_country_flag = fastershipb_3
+				has_country_flag = fastershipb_4
+				has_country_flag = fastershipb_5
+				has_country_flag = fastershipb_6
+				has_country_flag = fastershipb_7
+			}	
+        }
+
+        complete_effect = {
+			set_country_flag = fastershipb_1
+        }
+
+        modifier = {
+        	industrial_capacity_dockyard = 0.25
+        }
+
+        fire_only_once = yes
+	days_remove = 99999
+	
+}
+
+fastershipb2 = {
+
+        icon = generic_propaganda
+
+        ai_will_do = {
+            factor = 0
+        }
+
+        visible = {
+            	always = yes
+        }
+
+	allowed = { 
+		NOT = {
+			has_country_flag = fastershipb_1
+			has_country_flag = fastershipb_3
+			has_country_flag = fastershipb_4
+			has_country_flag = fastershipb_5
+			has_country_flag = fastershipb_6
+			has_country_flag = fastershipb_7
+		}	
+	}
+
+        available = {
+		NOT = {
+			has_country_flag = fastershipb_1
+			has_country_flag = fastershipb_3
+			has_country_flag = fastershipb_4
+			has_country_flag = fastershipb_5
+			has_country_flag = fastershipb_6
+			has_country_flag = fastershipb_7
+		}		
+        }
+
+        complete_effect = {
+			set_country_flag = fastershipb_2
+        }
+
+        modifier = {
+        	industrial_capacity_dockyard = 0.5
+        }
+
+        fire_only_once = yes
+	days_remove = 99999
+	
+}
+
+fastershipb3 = {
+
+        icon = generic_propaganda
+
+        ai_will_do = {
+            factor = 0
+        }
+
+        visible = {
+            	always = yes
+        }
+
+	allowed = { 
+		NOT = {
+			has_country_flag = fastershipb_1
+			has_country_flag = fastershipb_2
+			has_country_flag = fastershipb_4
+			has_country_flag = fastershipb_5
+			has_country_flag = fastershipb_6
+			has_country_flag = fastershipb_7
+		}		
+	}
+
+        available = {
+		NOT = {
+			has_country_flag = fastershipb_1
+			has_country_flag = fastershipb_2
+			has_country_flag = fastershipb_4
+			has_country_flag = fastershipb_5
+			has_country_flag = fastershipb_6
+			has_country_flag = fastershipb_7
+		}		
+        }
+
+        complete_effect = {
+			set_country_flag = fastershipb_3
+        }
+
+        modifier = {
+        	industrial_capacity_dockyard = 1.0
+        }
+
+        fire_only_once = yes
+	days_remove = 99999
+	
+}
+fastershipb4 = {
+
+        icon = generic_propaganda
+
+        ai_will_do = {
+            factor = 0
+        }
+
+        visible = {
+            	always = yes
+        }
+
+	allowed = { 
+		NOT = {
+			has_country_flag = fastershipb_1
+			has_country_flag = fastershipb_2
+			has_country_flag = fastershipb_3
+			has_country_flag = fastershipb_5
+			has_country_flag = fastershipb_6
+			has_country_flag = fastershipb_7
+		}		
+	}
+
+        available = {
+		NOT = {
+			has_country_flag = fastershipb_1
+			has_country_flag = fastershipb_2
+			has_country_flag = fastershipb_3
+			has_country_flag = fastershipb_5
+			has_country_flag = fastershipb_6
+			has_country_flag = fastershipb_7
+		}		
+        }
+
+        complete_effect = {
+			set_country_flag = fastershipb_4
+        }
+
+        modifier = {
+        	industrial_capacity_dockyard = 2.0
+        }
+
+        fire_only_once = yes
+	days_remove = 99999
+	
+}
+fastershipb5 = {
+
+        icon = generic_propaganda
+
+        ai_will_do = {
+            factor = 0
+        }
+
+        visible = {
+            	always = yes
+        }
+
+	allowed = { 
+		NOT = {
+			has_country_flag = fastershipb_1
+			has_country_flag = fastershipb_2
+			has_country_flag = fastershipb_3
+			has_country_flag = fastershipb_4
+			has_country_flag = fastershipb_6
+			has_country_flag = fastershipb_7
+		}		
+	}
+
+        available = {
+		NOT = {
+			has_country_flag = fastershipb_1
+			has_country_flag = fastershipb_2
+			has_country_flag = fastershipb_3
+			has_country_flag = fastershipb_4
+			has_country_flag = fastershipb_6
+			has_country_flag = fastershipb_7
+		}		
+        }
+
+        complete_effect = {
+			set_country_flag = fastershipb_5
+        }
+
+        modifier = {
+        	industrial_capacity_dockyard = 3.0
+        }
+
+        fire_only_once = yes
+	days_remove = 99999
+	
+}
+fastershipb6 = {
+
+        icon = generic_propaganda
+
+        ai_will_do = {
+            factor = 0
+        }
+
+        visible = {
+            	always = yes
+        }
+
+	allowed = { 
+		NOT = {
+			has_country_flag = fastershipb_1
+			has_country_flag = fastershipb_2
+			has_country_flag = fastershipb_3
+			has_country_flag = fastershipb_4
+			has_country_flag = fastershipb_5
+			has_country_flag = fastershipb_7
+		}		
+	}
+
+        available = {
+		NOT = {
+			has_country_flag = fastershipb_1
+			has_country_flag = fastershipb_2
+			has_country_flag = fastershipb_3
+			has_country_flag = fastershipb_4
+			has_country_flag = fastershipb_5
+			has_country_flag = fastershipb_7
+		}		
+        }
+
+        complete_effect = {
+			set_country_flag = fastershipb_6
+        }
+
+        modifier = {
+        	industrial_capacity_dockyard = 4.0
+        }
+
+        fire_only_once = yes
+	days_remove = 99999
+	
+}
+fastershipb7 = {
+        icon = generic_propaganda
+
+        ai_will_do = {
+            factor = 0
+        }
+
+        visible = {
+            	always = yes
+        }
+
+	allowed = { 
+		NOT = {
+			has_country_flag = fastershipb_1
+			has_country_flag = fastershipb_2
+			has_country_flag = fastershipb_3
+			has_country_flag = fastershipb_4
+			has_country_flag = fastershipb_5
+			has_country_flag = fastershipb_6
+		}
+	}
+
+        available = {
+			NOT = {
+				has_country_flag = fastershipb_1
+				has_country_flag = fastershipb_2
+				has_country_flag = fastershipb_3
+				has_country_flag = fastershipb_4
+				has_country_flag = fastershipb_5
+				has_country_flag = fastershipb_6
+			}	
+        }
+
+        complete_effect = {
+			set_country_flag = fastershipb_7
+        }
+
+        modifier = {
+        	industrial_capacity_dockyard = 5.0
+        }
+
+        fire_only_once = yes
+	days_remove = 99999
+	
+}
+
+}

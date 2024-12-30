@@ -1,0 +1,20 @@
+add_decision = {
+    id = buff_economic_output
+    potential = {
+        NOT = { has_global_flag = buff_economic_output }
+        has_peace_conference = no
+    }
+    effect = {
+        set_global_flag = buff_economic_output
+        add_timed_modifier = {
+            modifier = {
+                construction_speed_factor = 0.2
+            }
+            days = 365
+        }
+}
+    }
+    ai_will_do = {
+        factor = 0.01
+    }
+}
